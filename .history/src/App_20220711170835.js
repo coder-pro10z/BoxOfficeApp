@@ -4,11 +4,11 @@ import {Switch,Route} from 'react-router-dom';
 function App() {
    return ( <Switch>
     <Route exact path="/">This is Home Page</Route>
-    <Route exact path="/starred">This is starred Page</Route>
-  
-    <Route >This is 404 Page</Route>
-  
   </Switch>
-   )};
+
+<Switch>
+    <Route exact path="/">This is Home Page</Route>
+  </Switch>
+};
 
 export default App;
