@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react'
 import MainPageLayout from '../components/MainPageLayout'
+import { apiGet } from '../misc/config';
 
 const Home = () => {
      // eslint-disable-next-line 
@@ -11,11 +12,12 @@ const Home = () => {
       setInput(ev.target.value);
   }
   const onSearch=()=>{ 
-       fetch(`https://api.tvmaze.com/search/shows?q=${input}`).then(r=>r.json()).then(result=>{
-
-               setResults(result);
-           }
-       )
+      apiGet(`/search/shows?q=${input}`).then(result=>
+        {
+           setResults(result);
+        } 
+        )
+       
   }
 
   const onKeyDown=(ev)=>
@@ -34,7 +36,7 @@ return <div>NO RESULTS</div>
               {results.map(item=>
           <div key={item.show.id}>{item.show.name}</div>)} 
           </div>
-          
+
     }
     return null;
 
