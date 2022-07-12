@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import ActorGrid from '../components/actor/ActorGrid';
 import MainPageLayout from '../components/MainPageLayout'
 import ShowGrid from '../components/show/ShowGrid';
@@ -13,8 +13,7 @@ const Home = () => {
   const isShowsSearch = searchOption === 'shows';
 
  
- 
- 
+
   const OnInputChange =(ev) => {
       setInput(ev.target.value);
   }
