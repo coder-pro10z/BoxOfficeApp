@@ -1,8 +1,9 @@
  import React from 'react'
  import IMG_PLACEHOLDER from '../../images/not-found.png'
+ import { CastList } from './Cast.styled';
  const Cast = ({ cast }) => {
     return (
-      <div>
+      <CastList>
         {cast.map(({ person, character, voice }, key) => (
           <div key={key}>
             <div>
@@ -18,7 +19,7 @@
             </div>
           </div>
         ))}
-      </div>
+      </CastList>
     );
   };
   
