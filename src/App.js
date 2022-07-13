@@ -11,7 +11,7 @@ function App() {
       <Switch>
     <Route exact path="/"><Home/></Route>
     <Route exact path="/starred"><Starred/></Route>
-    <Route exact path="/show/:id"><Show/>
+    <Route exact path="/shows/:id"><Show/>
        </Route>
     <Route >This is 404 Page</Route>
   
