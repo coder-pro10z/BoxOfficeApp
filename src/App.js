@@ -3,6 +3,8 @@ import {Switch,Route} from 'react-router-dom';
 import Show from "./pages/Show";
 import Home from "./pages/Home";
 import Starred from "./pages/Starred";
+
+// app.use(cors());
 function App() {
    return (
    <div>

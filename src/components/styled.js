@@ -44,7 +44,7 @@ export const Star = styled.div`
   // background-color: #ffc806;
   background-color: ${props=>
     (props.active?'#ffc806':'#ddd')};
-
+ 
   clip-path: polygon(
     50% 0%,
     61% 35%,
