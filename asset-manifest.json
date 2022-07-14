@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BoxOfficeApp/static/css/main.b2586571.css",
+    "main.js": "/BoxOfficeApp/static/js/main.af65cadf.js",
+    "service-worker.js": "/BoxOfficeApp/service-worker.js",
+    "index.html": "/BoxOfficeApp/index.html",
+    "main.b2586571.css.map": "/BoxOfficeApp/static/css/main.b2586571.css.map",
+    "main.af65cadf.js.map": "/BoxOfficeApp/static/js/main.af65cadf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2586571.css",
+    "static/js/main.af65cadf.js"
+  ]
+}
